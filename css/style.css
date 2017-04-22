@@ -1,0 +1,113 @@
+html,
+body,
+#cover{
+	height: 100%;
+}
+
+#cover{
+	background-color: #96ceb4;
+	background-image: url("../images/ust.jpg");
+}
+
+.fixed-top{
+	max-width: 1140px;
+	margin:20px auto;
+}
+
+h1{
+	margin-top: 20%;
+	font-family: 'Droid Serif', serif;
+	font-size: 75px;
+	font-style: italic;
+	margin-bottom: 30px;
+	font-weight: 700;
+}
+
+h2{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 40px;
+	margin-bottom: 30px;
+	
+}
+
+.btn-primary{
+	background-color: #fed136;
+	border-style: none;
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	padding: 20px 40px;
+}
+
+.btn-primary:hover{
+	background-color: #b19225;
+}
+
+a.nav-link{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	color: #000000 !important;
+	transition: color 0.5s ease;
+	-webkit-transition: color 0.5s ease;
+	-moz-transition: color 0.5s ease;
+	-o-transition: color 0.5s ease;
+}
+
+a.nav-link:hover{
+	color: white !important;
+}
+
+/* section services */
+
+#services{
+	padding: 100px 0;
+	/*background-color: #ff6f69;*/
+
+	background: #ff6f69; /* For browsers that do not support gradients */    
+    background: -webkit-linear-gradient(left top, #ff6f69, #ffcc5c); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, #ff6f69, #ffcc5c); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, #ff6f69, #ffcc5c); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, #ff6f69, #ffcc5c); /* Standard syntax (must be last) */
+
+}
+
+.services-top h3{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 40px;
+	font-weight: 700;
+}
+
+.services-top p{
+	font-family: 'Droid Serif', serif;
+	font-size: 16px;
+	font-style: italic;
+	color: #777;
+	margin-bottom: 70px;
+}
+
+.item-circle{
+	border: 3px solid #ffeead;
+	width: 100px;
+	height: 100px;
+	margin:0 auto;
+	border-radius: 200px;
+}
+
+.services-content i{
+	color: #ffeead;
+	line-height: 100px;
+}
+
+.services-content h4{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	font-weight: 700;
+	margin-top: 25px;
+	color: #222;
+}
+
+.services-content p{
+	font-family: 'Roboto Slab', serif;
+	font-size: 14px;
+	color: #222;
+}
