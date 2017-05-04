@@ -221,4 +221,33 @@ a.nav-link:hover{
 
 }
 
+#footer{
+	padding: 40px 0;
 
+	background: #282828; /* For browsers that do not support gradients */    
+    background: -webkit-linear-gradient(left top, #282828, #000000); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, #282828, #000000); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, #282828, #000000); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, #282828, #000000); /* Standard syntax (must be last) */
+}
+
+.footer-content p{
+	color: white;
+}
+
+.footer-content h4{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 40px;
+	font-weight: 700;
+	color: #ffeead;
+}
+
+.footer-content p{
+	font-family: 'Roboto Slab', serif;
+	font-size: 14px;
+	color: white;
+}
+
+.footer-bottom{
+	padding-top: 150px;
+}
