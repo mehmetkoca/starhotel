@@ -111,3 +111,114 @@ a.nav-link:hover{
 	font-size: 14px;
 	color: #222;
 }
+
+
+ /* ROOMS*/ 
+
+#rooms{
+	padding: 100px 0;
+
+	background: #ffeead; /* For browsers that do not support gradients */    
+    background: -webkit-linear-gradient(left top, #ffeead, #96ceb4); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, #ffeead, #96ceb4); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, #ffeead, #96ceb4); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, #ffeead, #96ceb4); /* Standard syntax (must be last) */
+}
+
+.rooms-content img{
+	height: 100%;
+	width: 80%;
+	border-radius: 20px;
+	margin-bottom: 50px;
+}
+
+.rooms-content h4{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 40px;
+	font-weight: 700;
+
+}
+
+.rooms-content p{
+	font-family: 'Roboto Slab', serif;
+	font-size: 14px;
+	color: #222;
+}
+
+.rooms-content i{
+	color: #ce96b0;
+	line-height: 100px;
+}
+
+.item-circleRoom{
+	border: 3px solid #ce96b0;
+	width: 100px;
+	height: 100px;
+	margin:0 auto;
+	border-radius: 200px;
+}
+
+#room-one{
+	padding-top: 70px;
+}
+
+/* Security */
+
+#security{
+	padding: 100px 0;
+
+	background: #93323f; /* For browsers that do not support gradients */    
+    background: -webkit-linear-gradient(left top, #93323f, #233d4e); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, #93323f, #233d4e); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, #93323f, #233d4e); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, #93323f, #233d4e); /* Standard syntax (must be last) */
+}
+
+#securityOne{
+	padding-top: 70px;
+}
+
+.security-top h3{
+	color: #ffeead;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 40px;
+	font-weight: 700;
+}
+
+.security-top p{
+	color: #ffeead;
+	font-family: 'Droid Serif', serif;
+	font-size: 16px;
+	font-style: italic;
+	margin-bottom: 70px;
+}
+
+.security-content i{
+	color: #ffeead;
+	line-height: 100px;
+}
+
+.security-content h4{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 40px;
+	font-weight: 700;
+	color: #ffeead;
+}
+
+.security-content p{
+	font-family: 'Roboto Slab', serif;
+	font-size: 14px;
+	color: #ffeead;
+}
+
+.security-content img{
+	width: 80%;
+	height: 100%;
+	background-size: cover;
+	border-radius: 20px;
+	margin-top: 30px;
+	
+
+}
+
+
