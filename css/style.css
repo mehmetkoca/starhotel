@@ -5,10 +5,15 @@ body,
 }
 
 #cover{
-	background-color: #96ceb4;
-	background-image: url("../images/ust.jpg");
+	/*background-color: #96ceb4;
+	background-image: url("../images/ust.jpg");*/
 }
+#full{
+	background: black;
+	background: linear-gradient(to top, #3f51b1 0%, #5a55ae 13%, #7b5fac 25%, #8f6aae 38%, #a86aa4 50%, #cc6b8e 62%, #f18271 75%, #f3a469 87%, #f7c978 100%);
+	background: -webkit-linear-gradient(to top, #3f51b1 0%, #5a55ae 13%, #7b5fac 25%, #8f6aae 38%, #a86aa4 50%, #cc6b8e 62%, #f18271 75%, #f3a469 87%, #f7c978 100%);
 
+}
 .fixed-top{
 	max-width: 1140px;
 	margin:20px auto;
@@ -37,10 +42,12 @@ h2{
 	font-family: 'Montserrat', sans-serif;
 	font-size: 18px;
 	padding: 20px 40px;
+	color:black;
 }
 
 .btn-primary:hover{
 	background-color: #b19225;
+	color: black;
 }
 
 a.nav-link{
@@ -54,7 +61,7 @@ a.nav-link{
 }
 
 a.nav-link:hover{
-	color: white !important;
+	color: black !important;
 }
 
 /* section services */
@@ -63,11 +70,11 @@ a.nav-link:hover{
 	padding: 100px 0;
 	/*background-color: #ff6f69;*/
 
-	background: #ff6f69; /* For browsers that do not support gradients */    
-    background: -webkit-linear-gradient(left top, #ff6f69, #ffcc5c); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(bottom right, #ff6f69, #ffcc5c); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(bottom right, #ff6f69, #ffcc5c); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(to bottom right, #ff6f69, #ffcc5c); /* Standard syntax (must be last) */
+	/*background: #ff6f69; /* For browsers that do not support gradients    
+    background: -webkit-linear-gradient(left top, #ff6f69, #ffcc5c);  For Safari 5.1 to 6.0 
+    background: -o-linear-gradient(bottom right, #ff6f69, #ffcc5c);  For Opera 11.1 to 12.0 
+    background: -moz-linear-gradient(bottom right, #ff6f69, #ffcc5c);  For Firefox 3.6 to 15 
+    background: linear-gradient(to bottom right, #ff6f69, #ffcc5c);  Standard syntax (must be last) */ 
 
 }
 
@@ -118,11 +125,12 @@ a.nav-link:hover{
 #rooms{
 	padding: 100px 0;
 
-	background: #ffeead; /* For browsers that do not support gradients */    
-    background: -webkit-linear-gradient(left top, #ffeead, #96ceb4); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(bottom right, #ffeead, #96ceb4); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(bottom right, #ffeead, #96ceb4); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(to bottom right, #ffeead, #96ceb4); /* Standard syntax (must be last) */
+	/*background: #ffeead; /* For browsers that do not support gradients     
+    background: -webkit-linear-gradient(to top, #30cfd0 0%, #330867 100%); 
+    background: -o-linear-gradient(to top, #30cfd0 0%, #330867 100%); 
+    background: -moz-linear-gradient(to top, #30cfd0 0%, #330867 100%); 
+    background: linear-gradient(to top, #30cfd0 0%, #330867 100%);  */
+	
 }
 
 .rooms-content img{
@@ -167,11 +175,11 @@ a.nav-link:hover{
 #security{
 	padding: 100px 0;
 
-	background: #93323f; /* For browsers that do not support gradients */    
-    background: -webkit-linear-gradient(left top, #93323f, #233d4e); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(bottom right, #93323f, #233d4e); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(bottom right, #93323f, #233d4e); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(to bottom right, #93323f, #233d4e); /* Standard syntax (must be last) */
+	/*background: #93323f;   
+    background: -webkit-linear-gradient(left top, #93323f, #233d4e); 
+    background: -o-linear-gradient(bottom right, #93323f, #233d4e); 
+    background: -moz-linear-gradient(bottom right, #93323f, #233d4e); 
+    background: linear-gradient(to bottom right, #93323f, #233d4e); */
 }
 
 #securityOne{
